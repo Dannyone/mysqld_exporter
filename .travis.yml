@@ -9,3 +9,4 @@ go_import_path: github.com/prometheus/mysqld_exporter
 
 script:
 - make
+
