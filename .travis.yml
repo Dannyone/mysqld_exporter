@@ -1,0 +1,11 @@
+sudo: false
+
+language: go
+go:
+- 1.8.x
+- tip
+
+go_import_path: github.com/prometheus/mysqld_exporter
+
+script:
+- make
